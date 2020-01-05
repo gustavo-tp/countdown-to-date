@@ -1,0 +1,14 @@
+{
+  "name": "countdown-to-new-year",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:gustavo-tp/countdown-to-date.git",
+  "author": "gustavo-tp <gustavo1190.gt@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "serve ./public"
+  },
+  "dependencies": {
+    "serve": "^11.3.0"
+  }
+}
