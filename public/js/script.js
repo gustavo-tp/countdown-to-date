@@ -23,7 +23,7 @@ function newYear() {
   let m = Math.floor((gap % hour) / minute);
   let s = Math.floor((gap % minute) / second);
 
-  if (s <= 0) {
+  if (d <= 0 && h <= 0 && m <= 0 && s <= 0) {
     showCongratulations();
   }
 
