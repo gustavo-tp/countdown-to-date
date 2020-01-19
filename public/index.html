@@ -1,20 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
     <title>Countdown to Date</title>
-    <link rel="stylesheet" href="./css/style.css">
-</head>
-<body>
-    <div class="container">
-        <h2><span>Countdown to Your Birthday</span>19 Years Old</h2>
-        <div class="countdown">
-            <div id="day">NA</div>
-            <div id="hour">NA</div>
-            <div id="minute">NA</div>
-            <div id="second">NA</div>
-        </div>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div id="countdown" class="container">
+      <h2><span>Countdown to Your Birthday</span>19 Years Old</h2>
+      <div class="countdown">
+        <div id="day">NA</div>
+        <div id="hour">NA</div>
+        <div id="minute">NA</div>
+        <div id="second">NA</div>
+      </div>
     </div>
+    <div id="congratulations" class="hidden">
+      <h1>
+        Happy Birthday <br />
+        I Love You so Much
+      </h1>
+      <canvas id="birthday"></canvas>
+    </div>
+    <script src="./js/happy-birthday.js"></script>
     <script src="./js/script.js"></script>
-</body>
+  </body>
 </html>
